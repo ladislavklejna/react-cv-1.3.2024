@@ -34,12 +34,20 @@ function App() {
       <Container>
         <Row className="my-5">
           <Col className="offset-3" xs={3}>
-            <Button block onClick={() => setShow(true)}>
+            <Button
+              color={show === true ? "primary" : "secondary"}
+              block
+              onClick={() => setShow(true)}
+            >
               Seznam Programátorů
             </Button>
           </Col>
           <Col xs={3}>
-            <Button block onClick={() => setShow(false)}>
+            <Button
+              color={show === false ? "primary" : "secondary"}
+              block
+              onClick={() => setShow(false)}
+            >
               Projekt
             </Button>
           </Col>
