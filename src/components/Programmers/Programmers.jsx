@@ -65,6 +65,7 @@ const Programmers = ({ data, dataOut, hold }) => {
             <th>Jméno</th>
             <th>Přijmení</th>
             <th>Úroveň</th>
+            <th></th>
           </tr>
         </thead>
         <tbody>
